@@ -81,9 +81,7 @@ public class atribut {
         for (int i = 0; i < Sinopsis.length(); i++) {
             if(Sinopsis.charAt(i) == ' '){
                 countWords++;
-            } else if (this.Sinopsis == null){
-                countWords = 0;
-            };
+            }
         }
         return countWords;
     }
