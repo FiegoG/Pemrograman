@@ -83,7 +83,7 @@ public class Main {
         
     }
     public static void returnMain(){
-        System.out.println("apakah anda ingin bermain lagi? Y/N");
+        System.out.println("\n\napakah anda ingin bermain lagi? Y/N");
         char pilihan;
         input.nextLine();
         pilihan = input.nextLine().charAt(0);
